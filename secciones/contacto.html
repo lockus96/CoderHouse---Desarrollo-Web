@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="fondoImagen">
+
+
+    <header class="header">
+
+        <img id="logo1" src="../imagenes/logo.png" alt="logo">
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html">Principal</a>
+                </li>
+                <li>
+                    <a href="./referencias.html">Referencias</a>
+                </li>
+                <li>
+                    <a href="./equipacion.html">Equipación</a>
+                </li>
+                <li>
+                    <a href="./comollegar.html">Como llegar</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+    <section>
+        <article>
+
+            <h2 class="textoBody"> ¿Quedan dudas? ¡Contactanos!</h2>
+
+        </article>
+
+    </section>
+
+
+    <form id="formularioContacto">
+        <label for="name">Ingrese su nombre</label><br>
+        <input type="text" name="name" /><br>
+        <label for="email">Ingrese su email</label><br>
+        <input type="text" placeholder="aaaaa@gmail.com" name="email" /><br>
+        <!-- Menú desplegable -->
+        <div>Area de consulta.</div>
+        <select name="secciones">
+            <option value="E">Equipación</option>
+            <option value="P">Precios</option>
+            <option value="R">Referencias</option>
+            <option value="O">Otro</option>
+        </select>
+        <!-- área de texto -->
+        <label for="observaciones">Consulta: <br>
+            <textarea></textarea>
+        </label> <br>
+        <!-- Botones -->
+        <input type="submit" value="Enviar Datos" />
+        <input type="reset" value="Limpiar Datos" />
+        <input type="button" value="Non Action" />
+    </form>
+
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
