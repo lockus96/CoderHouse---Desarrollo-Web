@@ -57,9 +57,21 @@ ul{
 
 li{
       
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     margin-right: 5%;
+}
+
+.botonMenu{
+    border: 100%;
+    height: 100%;
+    width: 20%;
+}
+
+.botonMenu:hover{
+    transform: scale(1.3);
+    transition-duration: 100ms;
 }
 
 a{
@@ -293,4 +305,5 @@ a{
 textarea {
     width: 100%;
     height: 50%;
-  }
+}
+
