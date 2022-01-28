@@ -9,7 +9,7 @@
     <title>Contacto</title>
 </head>
 
-<body class="fondoImagen">
+<body>
 
 
     <header class="header">
@@ -28,9 +28,6 @@
                     <a href="./equipacion.html">Equipación</a>
                 </li>
                 <li>
-                    <a href="./comollegar.html">Como llegar</a>
-                </li>
-                <li>
                     <a href="./contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -40,23 +37,26 @@
 
     </header>
 
-    <section>
-        <article>
-
-            <h2 class="textoBody"> ¿Quedan dudas? ¡Contactanos!</h2>
-
+    <section class="bodySeccionesContacto">
+        
+        <article id="textoContacto">
+            <h2 class="textoBody"> Cómo llegar y cómo contactarnos</h2>
         </article>
+   
 
-    </section>
 
+    <iframe id="ubicacionGoogleMaps"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.450938387217!2d-65.480405884197!3d-33.67138601627232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d141d666ec03e3%3A0x3531b75e0fde35ec!2sChacabuco%20701%2C%20D5730%20Villa%20Mercedes%2C%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1639687222683!5m2!1ses-419!2sar"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
 
     <form id="formularioContacto">
-        <label for="name">Ingrese su nombre</label><br>
+        <label for="name">Ingrese su nombre</label>
         <input type="text" name="name" /><br>
-        <label for="email">Ingrese su email</label><br>
+        <label for="email">Ingrese su email</label>
         <input type="text" placeholder="aaaaa@gmail.com" name="email" /><br>
         <!-- Menú desplegable -->
-        <div>Area de consulta.</div>
+        <label>Area de consulta </label>
         <select name="secciones">
             <option value="E">Equipación</option>
             <option value="P">Precios</option>
@@ -64,7 +64,7 @@
             <option value="O">Otro</option>
         </select>
         <!-- área de texto -->
-        <label for="observaciones">Consulta: <br>
+        <br><label for="observaciones">Consulta: <br>
             <textarea></textarea>
         </label> <br>
         <!-- Botones -->
@@ -72,7 +72,8 @@
         <input type="reset" value="Limpiar Datos" />
         <input type="button" value="Non Action" />
     </form>
-
+    
+    </section>
 
     <footer>
     </footer>
