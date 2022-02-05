@@ -1,0 +1,42 @@
+.bodySeccionesContacto{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 0.2fr repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+        h2{
+            text-align: center;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .ubicacionGoogleMaps{
+            grid-area: 3 / 1 / 5 / 2;
+        }
+        .formularioContacto{
+            grid-area: 3 / 2 / 5 / 3;
+            line-height: 200%;
+            text-align: left;
+            font-size: 20px;
+            color: rgb(235, 235, 235);
+            background-color: black;
+            width: 80%;
+            height: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            textarea{
+                width: 200%;
+                height: 150%;
+            }
+        }  
+}
