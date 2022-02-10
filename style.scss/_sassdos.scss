@@ -1,0 +1,16 @@
+$headings: (
+    h2: 45px,
+    h3: 25px,
+);
+
+$h2: map-get($headings, h2);
+$h3: map-get($headings, h3);
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .multimediaImg {
+    @include sizes(70%, 100%);
+ }
+ 

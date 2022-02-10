@@ -1,0 +1,10 @@
+Agregué un map y con get-map modifiqué todos los h2 y h3 de la página.
+
+Usé mixin para modificar la sección de img de equipación (con esto reducí varias líneas de código).
+
+Agregué keywords, descripción para navegadores.
+
+Comprimí las imágenes.
+
+P.S: Gracias Damian, sos un crack.
+
