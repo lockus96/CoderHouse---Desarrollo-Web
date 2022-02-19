@@ -19,33 +19,32 @@ body {
   background-color: #201717;
 }
 
-body header {
+body .navBackground {
   background-color: #0f0e0e;
 }
 
-body header #logo1 {
+body .navBackground #logo1 {
   width: 100%;
 }
 
-body header ul {
+body .navBackground ul {
   list-style-type: none;
   text-decoration: none;
 }
 
-body header ul li {
+body .navBackground ul li {
   font-size: 100%;
 }
 
-body header ul li:hover {
+body .navBackground ul li .tipografia {
+  color: ivory;
+}
+
+body .navBackground ul li:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
-}
-
-body header ul li .tipografia {
-  text-decoration: none;
-  color: ivory;
 }
 
 footer {
