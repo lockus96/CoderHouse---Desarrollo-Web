@@ -8,3 +8,11 @@ Comprimí las imágenes.
 
 P.S: Gracias Damian, sos un crack.
 
+19/2
+
+Modifiqué el nav, ya casi es el definitivo. 
+Estuve arreglando cosas de las media-queries que me estaban faltando. 
+Arreglé el formulario.
+En otro proyecto estoy haciendo la sección que me falta, pero no estaba lo suficientemente completa como para mandarla para esta entrega.
+Prometo un buen proyecto final!
+
