@@ -21,10 +21,15 @@ body {
 
 body .navBackground {
   background-color: #0f0e0e;
+  width: 100%;
 }
 
 body .navBackground #logo1 {
   width: 100%;
+}
+
+body .navBackground .botonBackground {
+  background-color: ivory;
 }
 
 body .navBackground ul {
@@ -37,7 +42,7 @@ body .navBackground ul li {
 }
 
 body .navBackground ul li .tipografia {
-  color: ivory;
+  color: ivory !important;
 }
 
 body .navBackground ul li:hover {
@@ -355,7 +360,7 @@ footer ul .footerIcon i:hover {
   font-size: 20px;
   color: #ebebeb;
   background-color: black;
-  width: 80%;
+  width: 100%;
   height: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -365,8 +370,8 @@ footer ul .footerIcon i:hover {
 }
 
 .bodySeccionesContacto .formularioContacto textarea {
-  width: 200%;
-  height: 150%;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -438,20 +443,23 @@ footer ul .footerIcon i:hover {
     margin-top: 10%;
   }
   body .bodySeccionesReferencias .video1 {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   body .bodySeccionesReferencias .video2 {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
   }
   body .bodySeccionesReferencias .video3 {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
   }
   body .bodySeccionesReferencias .video4 {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
   }
   body .bodySeccionesReferencias h3 {
     text-align: center;

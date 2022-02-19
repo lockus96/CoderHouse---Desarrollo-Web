@@ -15,17 +15,26 @@
 <body>
 
 
-  <header class="container-fluid">
-    <div class="row">
-        <div class="col-xl-12 col-md-12 col-xs-2">
-          <div class="mx-auto" style="width: 200px;">
-            <img id="logo1" src="../imagenes/logo.png" alt="logo">
-          </div>
-         
-          
-          <ul class="nav justify-content-center">
+  <header class="container-fluid m-0 p-0">
+
+    <nav class="navbar navbar-expand-lg navbar-light navBackground">
+      <div class="container-fluid">
+        <div class="mx-auto" style="width: 200px;">
+          <img id="logo1" src="../imagenes/logo.png" alt="logo">
+        </div>
+        <button class="navbar-toggler botonBackground" type="button " data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link tipografia" href="../index.html">Principal</a>
+              <a class="nav-link tipografia" aria-current="page" href="../index.html">Principal</a>
             </li>
             <li class="nav-item">
               <a class="nav-link tipografia" href="./equipacion.html">Equipación</a>
@@ -42,19 +51,21 @@
           </ul>
         </div>
 
-    </div>
+    </nav>
 
   </header>
 
 
   <div class="container">
     <div class="row">
-        <div class="col-xl-12 col-md-12 col-xs-2">
+        <div class="col-xl-12 col-md-3 col-xs-2">
 
     <section>
         <article class="bodySeccionesReferencias">
 
             <h2>Descubrí el sonido que podés lograr</h2>
+
+            
             
             <iframe class="multimedia video1" width="560" height="315" src="https://www.youtube.com/embed/6dJb3HMO4KI"
             title="YouTube video player" frameborder="0"
