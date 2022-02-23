@@ -1,0 +1,28 @@
+.bodyHorarios{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 1fr 1fr 0.1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+        h2{ 
+            font-size: $h2;
+            color: rgb(255, 255, 255);
+            grid-area: 2 / 2 / 3 / 3;
+        }
+        h3{
+            font-size: $h3;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+            grid-area: 3 / 2 / 4 / 3;
+        }
+        .imagenPlanilla{
+            grid-area: 4 / 2 / 6 / 3;
+        }
+        .botonesHorarios{
+            grid-area: 7 / 2 / 8 / 3;
+            font-style: italic !important; 
+            color: rgb(255, 255, 255) !important;
+            justify-self: end;
+        }
+}

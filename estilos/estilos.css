@@ -120,6 +120,59 @@ footer ul .footerIcon i:hover {
       grid-row-start: 4;
 }
 
+.bodyHorarios {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 0.5fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+  -ms-grid-rows: 0.2fr 0.2fr 0.2fr 1fr 1fr 0.1fr 1fr;
+      grid-template-rows: 0.2fr 0.2fr 0.2fr 1fr 1fr 0.1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.bodyHorarios h2 {
+  font-size: 45px;
+  color: white;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.bodyHorarios h3 {
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.bodyHorarios .imagenPlanilla {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+}
+
+.bodyHorarios .botonesHorarios {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 7 / 2 / 8 / 3;
+  font-style: italic !important;
+  color: white !important;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 .bodySeccionesReferencias {
   display: -ms-grid;
   display: grid;
